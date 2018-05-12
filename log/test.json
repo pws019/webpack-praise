@@ -1,0 +1,64 @@
+{
+    "html": "{% extends 'layout.html' %}\r\n{% block title %}My Page{% endblock %}\r\n{% block head %}\r\n     <script src=\"https://cdn.bootcss.com/jquery/3.2.1/jquery.js\"></script>\r\n    <script src=\"https://cdn.bootcss.com/systemjs/0.20.19/system.js\"></script>\r\n    <script src=\"https://cdn.bootcss.com/axios/0.17.1/axios.js\"></script>\r\n    <script src=\"/lib/x-tag.js\"></script>\r\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"/css/index.023a5.css\">\r\n{% endblock %}\r\n{% block content %}\r\n    <praise-button></praise-button>\r\n    <script src=\"//scripts/common/common.a4e0a.js\"></script>\n<script src=\"/scripts/service.a4e0a.js\"></script>\n<script src=\"/scripts/index.a4e0a.js\"></script>\r\n\r\n{% endblock %}",
+    "assets": {
+        "publicPath": "/",
+        "chunks": {
+            "common": {
+                "size": 44802,
+                "entry": "//scripts/common/common.a4e0a.js",
+                "hash": "58a3e632b8d1bfb89714",
+                "css": []
+            },
+            "service": {
+                "size": 28,
+                "entry": "/scripts/service.a4e0a.js",
+                "hash": "04087a69ebc80d41483f",
+                "css": []
+            },
+            "index": {
+                "size": 1782,
+                "entry": "/scripts/index.a4e0a.js",
+                "hash": "8f47d9006d5140a693c0",
+                "css": [
+                    "/css/index.023a5.css"
+                ]
+            }
+        },
+        "js": [
+            "//scripts/common/common.a4e0a.js",
+            "/scripts/service.a4e0a.js",
+            "/scripts/index.a4e0a.js"
+        ],
+        "css": [
+            "/css/index.023a5.css"
+        ]
+    },
+    "plugin": {
+        "options": {
+            "template": "/Users/pws019/study/webpack-praise/node_modules/html-webpack-plugin/lib/loader.js!/Users/pws019/study/webpack-praise/src/views/index.html",
+            "filename": "../views/index.html",
+            "hash": false,
+            "inject": false,
+            "compile": true,
+            "favicon": false,
+            "minify": false,
+            "cache": true,
+            "showErrors": true,
+            "chunks": [
+                "common",
+                "service",
+                "index"
+            ],
+            "excludeChunks": [],
+            "chunksSortMode": "manual",
+            "meta": {},
+            "title": "Webpack App",
+            "xhtml": false
+        },
+        "childCompilerHash": "04284fcebfb4850d56c7eeb90bd64cb4",
+        "childCompilationOutputName": "../views/index.html",
+        "assetJson": "[\"/\",\"//scripts/common/common.a4e0a.js\",\"/css/index.023a5.css\",\"/scripts/index.a4e0a.js\",\"/scripts/service.a4e0a.js\"]"
+    },
+    "outputName": "../views/index.html",
+    "event": "test"
+}

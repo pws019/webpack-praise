@@ -1,0 +1,56 @@
+{
+    "html": "<head><link href=\"/css/index.023a5.css\" rel=\"stylesheet\"></head>{% extends 'layout.html' %}\r\n{% block title %}My Page{% endblock %}\r\n{% block head %}\r\n     <script src=\"https://cdn.bootcss.com/jquery/3.2.1/jquery.js\"></script>\r\n    <script src=\"https://cdn.bootcss.com/systemjs/0.20.19/system.js\"></script>\r\n    <script src=\"https://cdn.bootcss.com/axios/0.17.1/axios.js\"></script>\r\n    <script src=\"/lib/x-tag.js\"></script>\r\n{% endblock %}\r\n{% block content %}\r\n    <praise-button></praise-button>\r\n{% endblock %}<script type=\"text/javascript\" src=\"/scripts/service.c751f.js\"></script><script type=\"text/javascript\" src=\"/scripts/index.c751f.js\"></script>",
+    "assets": {
+        "publicPath": "/",
+        "chunks": {
+            "service": {
+                "size": 28,
+                "entry": "/scripts/service.c751f.js",
+                "hash": "04087a69ebc80d41483f",
+                "css": []
+            },
+            "index": {
+                "size": 1782,
+                "entry": "/scripts/index.c751f.js",
+                "hash": "8f47d9006d5140a693c0",
+                "css": [
+                    "/css/index.023a5.css"
+                ]
+            }
+        },
+        "js": [
+            "/scripts/service.c751f.js",
+            "/scripts/index.c751f.js"
+        ],
+        "css": [
+            "/css/index.023a5.css"
+        ]
+    },
+    "plugin": {
+        "options": {
+            "template": "/Users/pws019/study/webpack-praise/node_modules/html-webpack-plugin/lib/loader.js!/Users/pws019/study/webpack-praise/src/views/index.html",
+            "filename": "../views/index.html",
+            "hash": false,
+            "inject": true,
+            "compile": true,
+            "favicon": false,
+            "minify": false,
+            "cache": true,
+            "showErrors": true,
+            "chunks": [
+                "service",
+                "index"
+            ],
+            "excludeChunks": [],
+            "chunksSortMode": "manual",
+            "meta": {},
+            "title": "Webpack App",
+            "xhtml": false
+        },
+        "childCompilerHash": "0c016502cf94d2b1f069d673d680fba9",
+        "childCompilationOutputName": "../views/index.html",
+        "assetJson": "[\"/\",\"/css/index.023a5.css\",\"/scripts/index.c751f.js\",\"/scripts/service.c751f.js\"]"
+    },
+    "outputName": "../views/index.html",
+    "event": "html-webpack-plugin-after-html-processing"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "koa2-praise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "./node_modules/.bin/babel app.es -o app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-core": "^6.26.3",
+    "babel-polyfill": "^6.26.0",
+    "co": "^4.6.0",
+    "koa": "^2.5.1",
+    "koa-simple-router": "^0.2.0",
+    "koa-static": "^4.0.2",
+    "koa-swig": "^2.2.1",
+    "koa2": "^2.0.0-alpha.7"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}

@@ -1,0 +1,40 @@
+.finger{
+  width: 232px;
+  height: 309px;
+  position: relative;
+}
+
+.finger-body {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  height: 100px;
+  width: 100px;
+  border-radius: 0 23% 23% 0/0 23% 23% 0;
+  overflow: hidden;
+  background-color: yellow;
+}
+
+.finger-item {
+  width: 50px;
+  height: 25px;
+  float: right;
+  right: 0;
+  border-bottom: 1px solid black;
+  clear: right;
+}
+
+.big-finger{
+  top: 48px;
+  left: 100px;
+  position: absolute;
+  height: 100px;
+  width: 40px;
+  z-index: 1;
+  background-color: yellow;
+  border-radius: 0 20% 0 0/0 20% 0 0;
+}
+
+body {
+  background-color: green;
+}

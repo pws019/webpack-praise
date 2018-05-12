@@ -1,0 +1,97 @@
+{
+    "head": [
+        {
+            "tagName": "link",
+            "selfClosingTag": false,
+            "voidTag": true,
+            "attributes": {
+                "href": "/css/index.023a5.css",
+                "rel": "stylesheet"
+            }
+        }
+    ],
+    "body": [
+        {
+            "tagName": "script",
+            "closeTag": true,
+            "attributes": {
+                "type": "text/javascript",
+                "src": "/scripts/service.c751f.js"
+            }
+        },
+        {
+            "tagName": "script",
+            "closeTag": true,
+            "attributes": {
+                "type": "text/javascript",
+                "src": "/scripts/index.c751f.js"
+            }
+        }
+    ],
+    "plugin": {
+        "options": {
+            "template": "/Users/pws019/study/webpack-praise/node_modules/html-webpack-plugin/lib/loader.js!/Users/pws019/study/webpack-praise/src/views/index.html",
+            "filename": "../views/index.html",
+            "hash": false,
+            "inject": true,
+            "compile": true,
+            "favicon": false,
+            "minify": false,
+            "cache": true,
+            "showErrors": true,
+            "chunks": [
+                "service",
+                "index"
+            ],
+            "excludeChunks": [],
+            "chunksSortMode": "manual",
+            "meta": {},
+            "title": "Webpack App",
+            "xhtml": false
+        },
+        "childCompilerHash": "0c016502cf94d2b1f069d673d680fba9",
+        "childCompilationOutputName": "../views/index.html",
+        "assetJson": "[\"/\",\"/css/index.023a5.css\",\"/scripts/index.c751f.js\",\"/scripts/service.c751f.js\"]"
+    },
+    "chunks": [
+        {
+            "id": 1,
+            "rendered": true,
+            "initial": true,
+            "entry": false,
+            "extraAsync": false,
+            "size": 28,
+            "names": [
+                "service"
+            ],
+            "files": [
+                "scripts/service.c751f.js"
+            ],
+            "hash": "04087a69ebc80d41483f",
+            "parents": [
+                2
+            ]
+        },
+        {
+            "id": 0,
+            "rendered": true,
+            "initial": true,
+            "entry": false,
+            "extraAsync": false,
+            "size": 1782,
+            "names": [
+                "index"
+            ],
+            "files": [
+                "scripts/index.c751f.js",
+                "css/index.023a5.css"
+            ],
+            "hash": "8f47d9006d5140a693c0",
+            "parents": [
+                2
+            ]
+        }
+    ],
+    "outputName": "../views/index.html",
+    "event": "html-webpack-plugin-alter-asset-tags"
+}
